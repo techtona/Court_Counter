@@ -1,0 +1,177 @@
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team A"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_score_team_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="80sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+
+
+                />
+
+            <Button
+                android:id="@+id/btn_3_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#c0c0c0"
+                android:text="+ 3"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textSize="34sp"
+                android:shadowColor="#000"
+                android:shadowRadius="1"
+                />
+
+            <Button
+                android:id="@+id/btn_2_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#c0c0c0"
+                android:text="+ 2"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textSize="34sp"
+                android:shadowColor="#000"
+                android:shadowRadius="1"
+                />
+
+            <Button
+                android:id="@+id/btn_free_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#c0c0c0"
+                android:text="FREE"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textSize="30sp"
+                android:shadowColor="#000"
+                android:shadowRadius="1"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#c0c0c0"></View>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team B"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_score_team_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="80sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+
+
+                />
+
+            <Button
+                android:id="@+id/btn_3_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#c0c0c0"
+                android:text="+ 3"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textSize="34sp"
+                android:shadowColor="#000"
+                android:shadowRadius="1"
+                />
+
+            <Button
+                android:id="@+id/btn_2_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#c0c0c0"
+                android:text="+ 2"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textSize="34sp"
+                android:shadowColor="#000"
+                android:shadowRadius="1"
+                />
+
+            <Button
+                android:id="@+id/btn_free_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#c0c0c0"
+                android:text="FREE"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textSize="30sp"
+                android:shadowColor="#000"
+                android:shadowRadius="1"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f50"
+        android:text="RESET"
+        android:textSize="25sp"
+        android:textColor="#FFF"/>
+
+</LinearLayout>
